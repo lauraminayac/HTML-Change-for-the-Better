@@ -30,6 +30,7 @@ footer,
     color: white;
 }
 
+/*
 .flashy-text {
     color: aqua;
     animation: blink-animation 0.2s steps(5, start) infinite;
@@ -45,4 +46,9 @@ footer,
     to {
         visibility: hidden;
     }
+}
+*/
+
+@media (prefers-reduced-motion: reduce) {
+  /* CSS to disable motion goes here */
 }
